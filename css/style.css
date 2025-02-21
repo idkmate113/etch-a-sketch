@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #2d2e2e;
+  font-family: "Roboto", sans-serif;
+}
+#container {
+  display: flex;
+  justify-content: center;
+}
+h1 {
+  background-color: #716969;
+  margin-bottom: 50px;
+
+  font-family: "Roboto Mono", serif;
+}
+.right-side {
+  position: absolute;
+  right: 200px;
+}
+.color-picker {
+  display: flex;
+  gap: 24px;
+}
+.squares button {
+  padding: 1em;
+  background-color: #716969;
+  border: none;
+  cursor: pointer;
+}
+.squares {
+  margin-top: 20px;
+}
+h2 {
+  font-weight: bold;
+}
+.etch {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 700px;
+  width: 700px;
+  border: 1px solid #272727;
+
+  background-color: rgb(214, 214, 214);
+}
+.divs {
+  height: 20px;
+  width: 20px;
+  flex: auto;
+  border: 1px solid rgb(156, 156, 156);
+  box-sizing: border-box;
+}
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+}
